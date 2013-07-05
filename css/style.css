@@ -1,0 +1,133 @@
+.app_body {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    border: 2px solid blanchedalmond;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.tshirt_img {
+    width: 30%;
+    background-color: lightgrey;
+}
+
+.tshirt_wrapper {
+    width: 100%;
+    height: 300px;
+    margin: 5% auto;
+    float: left;
+    text-align: center;
+}
+
+#colorPicker {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.tshirt_size {
+    float: left;
+    width: 85px;
+    height: 82px;
+    text-align: center;
+    margin: 0;
+}
+
+.logos_wrapper {
+    float: left;
+    clear: left;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.logos_wrapper div {
+    width: 1000px;
+    float: left;
+}
+
+.logos_wrapper div img {
+    margin: 0 10px;
+}
+
+
+#switch_tshirt {
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.switch_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.tshirt_list_wrapper {
+    display: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.tshirt_list {
+    list-style: none;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.tshirt_list li {
+    display: inline;
+    width: auto;
+}
+
+.tshirt_list li img {
+    width: 20%;
+    cursor: pointer;
+}
+
+.style_selectors {
+    clear: both;
+    width: 100%;
+    position: absolute;
+    top: 380px;
+    left: 0px;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.style_selectors_container {
+    width: 680px;
+    height: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+    border: 2px solid blanchedalmond;
+}
+
+.tshirt_color {
+    display: inline-block;
+    margin: 0 10px;
+    float: left;
+}
+
+.tshirt_color p, .tshirt_size p {
+    margin: 0;
+}
+
+p.print_image {
+    margin: 100px 10px 10px 10px;
+    float: left;
+    clear: left;
+}

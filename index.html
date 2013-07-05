@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="./css/style.css" />
+        <link type="text/css" rel="stylesheet" href="./vendor/color-picker/css/colorpicker.css" />
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" ></script>
+        <script type="text/javascript" src="./vendor/color-picker/js/colorpicker.js" ></script>
+        <script type="text/javascript" src="./js/js.js" ></script>
+
+        <title>Web App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="app_body">
+                <div class="switch_wrapper"><button type="button" id="switch_tshirt" class="noSelect">Switch T-Shirt</button></div>
+                <div class="tshirt_wrapper"><img src="./images/tshirts/tshirt1.png" class="tshirt_img" /></div>
+                <div class="tshirt_list_wrapper">
+                    <ul class="tshirt_list">
+                        <li><img src="./images/tshirts/tshirt1.png" /></li>
+                        <li><img src="./images/tshirts/tshirt2.png" /></li>
+                        <li><img src="./images/tshirts/tshirt3.png" /></li>
+                        <li><img src="./images/tshirts/tshirt4.png" /></li>
+                        <li><img src="./images/tshirts/tshirt5.png" /></li>
+                        <li><img src="./images/tshirts/tshirt6.png" /></li>
+                        <li><img src="./images/tshirts/tshirt7.png" /></li>
+                        <li><img src="./images/tshirts/tshirt8.png" /></li>
+                    </ul>
+                </div>
+                <div class="style_selectors">
+                    <div class="style_selectors_container">
+                        <div class="tshirt_color"><p>T-Shirt color:</p><div id="colorPicker"></div></div>
+                        <div class="tshirt_size"> <p>T-Shirt size:</p>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                                <option>XXL</option>
+                                <option>XXXL</option>
+                            </select>
+                        </div>
+                        <p class="print_image">Print image:</p>
+                        <div class="logos_wrapper">
+                            <div>
+                                <img src="./images/logos/adidas-logo.png"/>
+                                <img src="./images/logos/nike-logo.png"/>
+                                <img src="./images/logos/lotto-logo.png"/>
+                                <img src="./images/logos/fila-logo.png"/>
+                                <img src="./images/logos/emblem-logo.png"/>
+                                <img src="./images/logos/brooks-logo.png"/>
+                                <img src="./images/logos/puma-logo.png"/>
+                                <img src="./images/logos/everlast-logo.png"/>
+                                <img src="./images/logos/londsdale-logo.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
